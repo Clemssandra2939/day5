@@ -14,3 +14,6 @@ print(f"The higest score in the class:  {max_score}")
 # print(max(student_scores))
 
 
+
+# for loops and the range()function
+so far we hv been coding with for loop when it is associa
