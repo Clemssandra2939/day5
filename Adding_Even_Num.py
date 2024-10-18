@@ -6,11 +6,11 @@
 # print(total_numbr)
 
 
-total_number = 0
-for number in range (1,101):
-    if number % 2==0:
-        total_number += number
-print(total_number)
+# total_number = 0
+# for number in range (1,101):
+#     if number % 2==0:
+#         total_number += number
+# print(total_number)
 
 
 
@@ -24,3 +24,14 @@ print(total_number)
 # And if the number is divided by 3 and 5 instead of printing the number,it should print "Fizz Buzz"
 
 
+for num in range (1,101):
+    if num % 3 == 0 and num % 5 ==0:
+        print("FizzBuzz")
+    elif num % 3 ==0:
+        print("Fizz")
+    elif num % 5 ==0:
+        print("Buzz")
+    else:
+        print(num)
+    
+    
