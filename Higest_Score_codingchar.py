@@ -55,6 +55,9 @@ for number in range (1, 101):
     total += number
 print(total)
     
-
+total_num =0
+for number in range (1, 15):
+    total_num += number
+print(total_num)
 
 

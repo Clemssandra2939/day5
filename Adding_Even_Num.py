@@ -1,16 +1,16 @@
 # Adding even  number from 1 to 100 including 1 and 100
 
-# total_numbr = 0
-# for numbr in range (2, 101,2):
-#     total_numbr += numbr
-# print(total_numbr)
+total_numbr = 0
+for numbr in range (2, 101,2):
+    total_numbr += numbr
+print(total_numbr)
 
 
-# total_number = 0
-# for number in range (1,101):
-#     if number % 2==0:
-#         total_number += number
-# print(total_number)
+total_number = 0
+for number in range (1,101):
+    if number % 2==0:
+        total_number += number
+print(total_number)
 
 
 
